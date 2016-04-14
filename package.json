@@ -1,0 +1,27 @@
+{
+  "name": "homqtt",
+  "version": "1.0.0",
+  "description": "Connects mqtt to apple's homekit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alche-mix/homqtt.git"
+  },
+  "keywords": [
+    "mqtt",
+    "homekit"
+  ],
+  "author": "Stephan Seefeld",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alche-mix/homqtt/issues"
+  },
+  "homepage": "https://github.com/alche-mix/homqtt#readme",
+  "dependencies" : {
+    "mqtt" : ">=1.8.0",
+    "hap-nodejs" : ">=0.3.0"
+  }
+}
